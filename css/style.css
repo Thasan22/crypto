@@ -1,0 +1,479 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;600;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,h2,h3,h4,h5,h6,ul,ol,p,span{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+:root{
+    --primaryFont: 'Manrope', sans-serif;
+    --primaryColor: #6366F1;
+    --gray900: #0B0F19;
+    --gray700:#565973;
+    --gray800: #33354D;
+    
+}
+
+body{
+    font-family: var(--primaryFont);
+}
+/* NAVBAR STARTS*/
+nav #myCustomNav li a{
+font-weight: 600;
+font-size: 16px;
+line-height: 160%;
+/* identical to box height, or 26px */
+
+/* White */
+color: #FFFFFF
+}
+nav p{
+    color: #FFFFFF;
+    padding: 0px 15px;
+}
+.navbar{
+    background-color: var(--gray900);
+}
+
+nav .signupBtn{
+    padding: 8px 22px;
+    background-color: var(--primaryColor);
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 4px;
+    
+}
+nav .signinBtn{
+    padding: 8px 22px;
+    border: 1px solid #a6a6cc;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+.form-check-input{
+    background-color: var(--primaryColor);
+}
+
+.navbar-toggler{
+    color: #FFFFFF;
+}
+
+.navbar-toggler-icon{
+    background-image: url(../image/toggle.png);
+    width: 2.5em;
+}
+
+/* BANNER STARTS */
+#banner{
+    background-color: var(--gray900);
+    color: #FFFFFF;
+    padding: 80px 0 80px 0;
+}
+
+.trial{
+    padding: 8px 22px;
+    background-color: var(--primaryColor);
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 4px;
+}
+.contact{
+    padding: 8px 22px;
+    border: 1px solid #a6a6cc;
+    color: #FFFFFF;
+    display: inline-block;
+    border-radius: 4px;
+    margin-right: 10px;
+}
+
+#banner h2{
+font-weight: 800;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+
+
+/* White */
+
+color: #FFFFFF;
+
+}
+
+#banner p{
+    font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* or 29px */
+
+
+/* White */
+
+color: #FFFFFF;
+
+opacity: 0.7;
+}
+
+#user{
+    padding-top: 70px;
+}
+
+.user{
+    color: #FFFFFF;
+    display: inline-block;
+}
+
+/* Slider */
+#logoSlider{
+    padding: 30px 0;
+}
+/* Slider ends */
+
+/* TRADE STARTS */
+
+#trade{
+    padding: 50px 0;
+}
+.heading{
+    padding-bottom: 20px;
+}
+
+.heading h2{
+font-weight: 800;
+font-size: 40px;
+line-height: 130%;
+/* or 52px */
+text-align: center;
+padding-top: 15px
+}
+
+.heading p{
+    font-weight: 400;
+font-size: 20px;
+line-height: 160%;
+/* identical to box height, or 32px */
+
+/* Gray/700 */
+color: var(--gray700);
+text-align: center;
+}
+.heading p span{
+  color:var(--primaryColor);
+  font-weight: 400;
+}
+/* TRADE ENDS */
+
+/* COMMUNITY STARTS */
+#community h2{
+    font-weight: 800;
+font-size: 40px;
+line-height: 130%;
+/* or 52px */
+
+
+/* Gray/900 */
+
+color: var(--gray900);
+padding-bottom: 20px;
+}
+
+#community p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* Gray/700 */
+
+color: var(--gray700);
+
+padding-bottom: 20px;
+}
+
+#community hr{
+    color: #E2E5F1;
+    border: 1px solid #5e5f64;
+}
+
+#community h3{
+    font-weight: 800;
+font-size: 64px;
+line-height: 130%;
+/* or 83px */
+
+
+/* Gray/900 */
+
+color: var(--gray900);
+}
+
+#community .value{
+    display: block;
+}
+/* COMMUNITY ENDS */
+
+/* CRYPTOBANK STARTS */
+#cryptoBank h2{
+font-weight: 800;
+font-size: 40px;
+line-height: 130%;
+/* or 52px */
+
+
+/* Gray/900 */
+
+color: var(--gray900);
+padding-bottom: 20px;
+}
+
+#cryptoBank p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+
+/* Gray/700 */
+
+color: var(--gray700);
+padding-bottom: 20px;
+}
+
+#cryptoBank .cryptoLogo{
+    width: 57px;
+    height: 34px;
+}
+/* CRYPTOBANK ENDS */
+
+/*  HOW TO WORK STARTS  */
+#use{
+    padding: 25px;
+}
+#use .useCnt{
+    text-align: center;
+    margin: auto;
+}
+#use .useCnt h3{
+    font-weight: 800;
+font-size: 24px;
+line-height: 140%;
+/* identical to box height, or 34px */
+
+text-align: center;
+
+/* Gray/900 */
+
+color: var(--gray900);
+padding-bottom: 15px;
+}
+#use .useCnt p{
+    font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+text-align: center;
+
+/* Gray/700 */
+
+color: var(--gray700);
+}
+
+.video{
+    padding-top: 40px;
+    cursor: pointer;
+}
+
+/*  HOW TO WORK ENDS  */
+
+/* REVIEW SECTION STARTS */
+#review{
+    padding: 30px;
+}
+
+#review .reviewTitle h2{
+font-weight: 800;
+font-size: 32px;
+line-height: 130%;
+/* or 42px */
+
+/* Gray/900 */
+
+color: var(--gray900);
+}
+
+.arrows{
+    display: flex;
+    margin-top: 30px;
+}
+
+.arrows .leftArrow,
+.arrows .rightArrow{
+    width: 40px;
+    height: 40px;
+    box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
+    border-radius: 40px;
+    margin: 10px;
+    text-align: center;
+    line-height: 40px;
+    cursor: pointer;
+}
+
+.reviewSlide{
+box-shadow: 0px 4.4px 12px -1px rgba(19, 16, 34, 0.06), 0px 2px 6.4px -1px rgba(19, 16, 34, 0.03);
+border-radius: 8px;
+padding: 48px 24px 24px;
+position: relative;
+}
+
+.reviewSlide .quotes{
+width: 44px;
+height: 44px;
+background-color: var(--primaryColor);
+display: block;
+text-align: center;
+line-height: 44px;
+font-size: 30px;
+color: #FFFFFF;
+position: absolute;
+top: -22px;
+}
+
+.reviewSlide .rating{
+    color: #FFBA08;
+    font-size: 14px;
+}
+
+.reviewSlide p{
+font-weight: 400;
+font-size: 16px;
+line-height: 160%;
+/* or 26px */
+
+/* Gray/700 */
+color: var(--gray700);
+padding-bottom: 15px;
+}
+
+.avatar{
+    padding-top: 20px;
+}
+
+.reviews .slick-track{
+    padding: 45px 0;
+}
+/* REVIEW SECTION ENDS */
+/* INEVESTIGATE STARTS */
+.investigate{
+    background: var(--gray900);  /* fallback for old browsers */
+    background: linear-gradient(90deg,#0B0F19 50% ,#8B5CF6 100% );
+    padding: 80px;
+    border-radius: 8px;
+}
+    
+.investigateCnt h2{
+    font-weight: 800;
+font-size: 40px;
+line-height: 130%;
+/* or 52px */
+    color: #FFFFFF;
+    padding-bottom: 20px;
+}
+    
+.hi span{
+    color: var(--primaryColor);
+    margin-right: 3px;
+}
+.hi p{
+font-weight: 400;
+font-size: 18px;
+line-height: 160%;
+/* identical to box height, or 29px */
+
+
+color: rgba(255, 255, 255, 0.7);
+line-height: -10px;
+}
+/* INEVESTIGATE ENDS */
+/* LAST SECTION */
+#lastPart{
+    padding: 80px;
+}
+
+#lastPart .email p{
+font-weight: 400;
+font-size: 14px;
+line-height: 160%;
+/* or 22px */
+/* Gray/700 */
+color: var(--gray700);
+padding-bottom: 20px;
+}
+
+#email .emailId{
+    border: 1px solid #a5a5a7;
+    padding: 5px 30px 5px 30px;
+    border-radius: 5px 0 0 5px;
+}
+#email button{
+    padding: 5px 30px 5px 30px;
+    border: none;
+    background-color: var(--primaryColor);
+    color: #FFFFFF;
+    border-radius: 0px 5px 5px 0;
+    margin-left: -2px;
+}
+
+#email span{
+    font-size: 25px;
+    color: #a5a5a7;
+}
+
+.link ul li a{
+    color: var(--gray800);
+    font-weight: 600;
+font-size: 16px;
+line-height: 200%;
+}
+.navbar .hover ul li a,
+#lastPart .hover ul li a{
+    position: relative;
+}
+.navbar .hover ul li a::before{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    bottom: 1px;
+    left: 6px;
+    transition: 0.3s;
+}
+#lastPart .hover ul li a::before{
+    content: "";
+    width: 0px;
+    height: 2px;
+    background-color: var(--primaryColor);
+    position: absolute;
+    bottom: -4px;
+    left: 0px;
+    transition: 0.3s;
+}
+.navbar .hover ul li:hover a::before{
+    width: 84%;
+}
+#lastPart .hover ul li:hover a::before{
+    width: 100%;
+}
